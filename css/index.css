@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+.container-part{
     width: 100%;
+    position: absolute;
 }
 .navbar-brand{
 
@@ -72,20 +73,18 @@
 
 #about{
     width: 80%;
- 
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 84vh;
+    position: relative;
+  
+    top: 35vh;
 }
 #about .card{
     border-radius: 0px;
     padding: 10px 10px;
-    box-shadow: 1px 1px 2px rgb(223, 219, 219);
+    box-shadow: 2px 2px 2px rgb(223, 219, 219);
 }
 #about .card img{
     width: 15rem;
@@ -109,7 +108,7 @@
     width: 30%;
    
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     left: 50%;
     transform: translateX(-50%);
     padding: 50px 15px;
@@ -151,6 +150,30 @@
     width: 50%;
 }
 
+/*--------------------------------------Login -------------------------- */
+#login{
+    display: none;
+}
+#login img{
+    border: 1px solid rgb(245, 232, 232);
+    box-shadow: 1px 1px 5px rgb(230, 218, 218);
+    width: 5rem;
+    height: 5rem;
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transform: translateX(-50%);
+    border-radius:5rem ;
+
+}
+/* -------------------------------- FOOTER CSS ------------------------------------- */
+footer{
+    
+    width: 100%;
+    position: relative;
+    top: 40vh;
+}
+
 @media screen and (max-width: 750px) {
     .home .home-content{
         width: 80%;
@@ -182,7 +205,6 @@
         width: 10rem;
         height: 10rem;
         border-radius:15rem ;
-       w;
         margin: auto;
     }
 }
@@ -232,3 +254,4 @@
         width: 95%;
     }
 }
+
