@@ -85,6 +85,7 @@
 #about .card{
     border-radius: 0px;
     padding: 10px 10px;
+    box-shadow: 1px 1px 2px rgb(223, 219, 219);
 }
 #about .card img{
     width: 15rem;
